@@ -31,6 +31,7 @@ nav ul .logo {
   display: flex;
   margin-left: 0%;
   margin-right: 0px;
+  margin-top: 2%;
   position: absolute;
   justify-content: center;
   align-items: center;
@@ -164,7 +165,7 @@ main .hero .hero-bottom-container .hero-bottom-line2 {
   position: absolute;
   margin-top: -2.2%;
   margin-left: 0%;
-  height: 425px;
+  height: 385px;
   width: 20%;
 }
 .section2 .container .imgbox2 a {
