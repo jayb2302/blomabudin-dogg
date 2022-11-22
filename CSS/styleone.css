@@ -14,7 +14,7 @@ nav ul {
   text-decoration: none;
   margin: 0;
   padding: 0;
-  margin-top: 1%;
+  margin-top: 0%;
   justify-content: space-around;
   display: flex;
   width: 100%;
@@ -31,11 +31,12 @@ nav ul .logo {
   display: flex;
   margin-left: 0%;
   margin-right: 0px;
-  margin-top: 2%;
+  margin-top: 1%;
   position: absolute;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 150px;
+  height: 150px;
   padding: 0;
 }
 nav a {
@@ -66,7 +67,7 @@ main .hero h1 {
   left: 10%;
   font-size: 85px;
   letter-spacing: 2px;
-  color: #606060;
+  color: #707070;
 }
 main .hero p {
   position: absolute;
@@ -74,13 +75,14 @@ main .hero p {
   left: 17%;
   font-family: "Roboto Condensed";
   font-size: 50px;
-  color: #505050;
+  color: #707070;
 }
 main .hero .hero-svg {
   position: absolute;
   background-image: url(../IMG/svghero.svg);
   background-repeat: no-repeat;
   margin-top: 0%;
+  background-position-y: bottom;
   height: 300px;
   width: 100%;
   background-size: 100%;
@@ -89,16 +91,18 @@ main .hero .hero-bottom-container {
   display: flex;
   z-index: 223;
   position: relative;
-  margin-top: -7%;
+  margin-top: 0%;
 }
 main .hero .hero-bottom-container .hero-bottom-line {
   height: 120px;
   width: 50%;
+  margin-top: -5%;
   background: linear-gradient(to top left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) calc(50% - 0.8px), rgb(0, 0, 0) 50%, rgba(0, 0, 0, 0) calc(50% + 0.8px), rgba(0, 0, 0, 0) 100%);
 }
 main .hero .hero-bottom-container .hero-bottom-line2 {
   height: 120px;
   width: 50%;
+  margin-top: -5%;
   background: linear-gradient(to top right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) calc(50% - 1px), rgb(0, 0, 0) 50%, rgba(0, 0, 0, 0) calc(50% + 1px), rgba(0, 0, 0, 0) 100%);
 }
 
@@ -129,22 +133,23 @@ main .hero .hero-bottom-container .hero-bottom-line2 {
   display: block;
   margin-left: 0;
   margin-right: 0;
+  height: 90%;
+  width: 80%;
 }
 .section2 .container .imgbox1 .rec1 {
   position: absolute;
   margin-left: 0%;
-  margin-top: -6%;
+  margin-top: -4%;
   height: 500px;
   width: 30%;
 }
 .section2 .container .imgbox1 a {
   color: transparent;
-  background: linear-gradient(90deg, #9e8080 50%, #606060 0%) var(--_p, 100%)/200% no-repeat;
+  background: linear-gradient(90deg, #9e8080 50%, #707070 0%) var(--_p, 100%)/200% no-repeat;
   background-clip: text;
   -webkit-background-clip: text;
   transition: 0.4s;
   text-decoration: none;
-  color: none;
 }
 .section2 .container .imgbox1 a:hover {
   --_p:0% ;
@@ -160,17 +165,19 @@ main .hero .hero-bottom-container .hero-bottom-line2 {
   display: block;
   margin-left: 0;
   margin-right: 0;
+  height: 90%;
+  width: 80%;
 }
 .section2 .container .imgbox2 .rec2 {
   position: absolute;
   margin-top: -2.2%;
   margin-left: 0%;
-  height: 385px;
-  width: 20%;
+  height: 440px;
+  width: 350px;
 }
 .section2 .container .imgbox2 a {
   color: transparent;
-  background: linear-gradient(90deg, #9e8080 50%, #606060 0%) var(--_p, 100%)/200% no-repeat;
+  background: linear-gradient(90deg, #9e8080 50%, #707070 0%) var(--_p, 100%)/200% no-repeat;
   background-clip: text;
   -webkit-background-clip: text;
   text-decoration: none;
@@ -185,11 +192,18 @@ main .hero .hero-bottom-container .hero-bottom-line2 {
   opacity: 80%;
   margin-bottom: 20%;
 }
+.section2 .container .imgbox3 .img1 {
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+  height: 90%;
+  width: 80%;
+}
 .section2 .container .imgbox3 .rec3 {
   transform: scaleX(-1);
   position: absolute;
   margin-left: 0%;
-  margin-top: -6%;
+  margin-top: -4%;
   height: 500px;
   width: 30%;
 }
@@ -211,7 +225,7 @@ main .hero .hero-bottom-container .hero-bottom-line2 {
   color: #F2F2F2;
   text-align: center;
   margin-top: 14%;
-  text-shadow: -2px -3px #F2F2F2;
+  text-shadow: -3px -4px #F2F2F2;
   cursor: pointer;
 }
 
@@ -239,7 +253,6 @@ main .hero .hero-bottom-container .hero-bottom-line2 {
   height: 300px;
   width: 100%;
   background-size: 100%;
-  position: absolute;
 }
 .section3 .hero-wrap {
   filter: drop-shadow(4px 4px 9px rgba(0, 0, 0, 0.5));
@@ -273,7 +286,7 @@ main .hero .hero-bottom-container .hero-bottom-line2 {
 }
 .section3 .hero-wrap .herotext p {
   font-family: roboto Condensed;
-  color: #606060;
+  color: #707070;
   font-size: 90px;
   font-size: 190px;
   font-family: "Alex Brush";
@@ -289,9 +302,9 @@ main .hero .hero-bottom-container .hero-bottom-line2 {
   text-decoration: none;
   color: none;
   list-style-type: none;
-  color: #606060;
+  color: #707070;
   color: transparent;
-  background: linear-gradient(90deg, #9e8080 50%, #606060 0%) var(--_p, 100%)/200% no-repeat;
+  background: linear-gradient(90deg, #9e8080 50%, #707070 0%) var(--_p, 100%)/200% no-repeat;
   background-clip: text;
   -webkit-background-clip: text;
   transition: 0.4s;
@@ -313,10 +326,11 @@ main .hero .hero-bottom-container .hero-bottom-line2 {
 }
 
 footer {
-  background: #f2F2f2;
+  margin-top: -15.5%;
+  background: #F2F2F2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
-  border-top: #606060 solid 1px;
+  border-top: #707070 solid 1px;
   width: 100%;
   font: bold 16px sans-serif;
   text-align: left;
@@ -327,7 +341,7 @@ footer .footer-left {
   float: left;
 }
 footer .footer-left h3 {
-  color: #606060;
+  color: #707070;
   font-family: Alex brush;
   font-size: 60px;
   margin-bottom: 2%;
@@ -350,7 +364,8 @@ footer .footer-left .footer-links a {
 }
 footer .footer-left li {
   display: inline-block;
-  filter: invert(0.75);
+  /* -webkit-filter: invert(.75); 
+   filter: invert(.75);  -> Invert Social Icons in Footer*/
 }
 footer .footer-left li img {
   display: inline-block;
@@ -365,7 +380,7 @@ footer .footer-right p {
   display: inline-block;
   vertical-align: top;
   margin: -1% 42px 3px 4px;
-  color: #606060;
+  color: footer .footer-right p primary;
   font-family: roboto condensed;
   font-size: 25px;
 }
@@ -377,25 +392,25 @@ footer .footer-right form input, footer .footer-right form textarea {
   border-radius: 3px;
   box-sizing: border-box;
   background-color: #CDBDB2;
-  box-shadow: 1px #606060;
+  box-shadow: 1px #707070;
   border: none;
   resize: none;
   font: inherit;
   font-size: 14px;
   font-weight: normal;
-  color: f2f2f2;
+  color: #707070;
   width: 400px;
   padding: 18px;
 }
 footer .footer-right form ::-webkit-input-placeholder {
-  color: #606060;
+  color: #707070;
 }
 footer .footer-right form ::-moz-placeholder {
-  color: #606060;
+  color: #707070;
   opacity: 1;
 }
 footer .footer-right form :-ms-input-placeholder {
-  color: #5c666b;
+  color: #707070;
 }
 footer .footer-right form input {
   height: 55px;
@@ -410,7 +425,7 @@ footer .footer-right form textarea {
 footer .footer-right form button {
   border-radius: 3px;
   background-color: #CDBDB2;
-  color: #606060;
+  color: #707070;
   border: 0;
   padding: 15px 50px;
   font-weight: bold;
@@ -419,7 +434,7 @@ footer .footer-right form button {
   letter-spacing: 3px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
   .footer-distributed {
     padding: 30px;
   }
@@ -440,5 +455,109 @@ footer .footer-right form button {
   }
   .footer-distributed form button {
     float: none;
+  }
+}
+@media only screen and (max-width: 950px) {
+  nav {
+    height: 50px;
+    width: 100%;
+    position: relative;
+  }
+  nav ul {
+    display: flex;
+    width: 100%;
+  }
+  #logo {
+    height: 90px;
+    width: 90px;
+    margin-top: 6%;
+  }
+  #heroimg {
+    width: 100%;
+    height: 700px;
+    margin-top: 1%;
+    -webkit-clip-path: polygon(100% 84%, 50% 100%, 0 84%, 0 0, 50% 7%, 100% 0);
+            clip-path: polygon(100% 84%, 50% 100%, 0 84%, 0 0, 50% 7%, 100% 0);
+  }
+  #header {
+    font-size: 70px;
+    margin-left: 5%;
+    margin-top: -5%;
+  }
+  #paragraph {
+    margin-top: -5%;
+    font-size: 40px;
+    margin-left: 5%;
+  }
+  #herosvg {
+    height: 250px;
+    width: 100%;
+    min-height: 200px;
+    margin-top: -4%;
+  }
+  #heroline, #linehero {
+    margin-top: -11%;
+    background: rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) calc(50% - 0.8px), rgb(0, 0, 0) 20%, rgba(0, 0, 0, 0) calc(50% + 0.8px), rgba(0, 0, 0, 0) 100%;
+  }
+  #recone, #recthree {
+    margin-top: -4%;
+    height: 465px;
+    width: 450px;
+  }
+  #rectwo {
+    margin-top: -2.6%;
+    height: 450px;
+    width: 370px;
+  }
+  #container {
+    display: block;
+  }
+  #imgone, #imgtwo, #imgthree {
+    height: 400px;
+    width: 400px;
+  }
+  #imgboxone, #imgboxtwo, #imgboxthree {
+    font-size: 90px;
+    margin-top: 17%;
+    border: #CDBDB2 2px dashed;
+    padding-top: 1.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 0%;
+    border-radius: 50px;
+  }
+  #heroimgone {
+    height: 700px;
+  }
+  #heroback {
+    -webkit-clip-path: polygon(100% 100%, 50% 100%, 0 100%, 0 0, 50% 35%, 100% 0);
+            clip-path: polygon(100% 100%, 50% 100%, 0 100%, 0 0, 50% 35%, 100% 0);
+    margin-top: -13%;
+  }
+  #let {
+    margin-top: -2%;
+    font-size: 50px;
+  }
+  #you {
+    font-size: 50px;
+    width: auto;
+    margin-top: 15.5%;
+    margin-left: -30%;
+  }
+  #dec {
+    transform: rotate(0);
+    font-size: 80px;
+    background-color: rgba(192, 193, 166, 0.9529411765);
+    border: 2px dashed #606060;
+    border-radius: 40px;
+    height: 50px;
+    min-width: 330px;
+    margin-left: -30%;
+    margin-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+  }
+  #contact {
+    margin-top: -25%;
   }
 }/*# sourceMappingURL=styleone.css.map */
