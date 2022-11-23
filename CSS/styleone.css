@@ -535,13 +535,13 @@ footer .footer-right form button {
     margin-top: -13%;
   }
   #let {
-    margin-top: -2%;
+    margin-top: -5%;
     font-size: 50px;
   }
   #you {
     font-size: 50px;
     width: auto;
-    margin-top: 15.5%;
+    margin-top: 11.5%;
     margin-left: -30%;
   }
   #dec {
@@ -553,7 +553,7 @@ footer .footer-right form button {
     height: 50px;
     min-width: 330px;
     margin-left: -30%;
-    margin-top: 5%;
+    margin-top: 1.5%;
     padding-bottom: 5%;
     padding-left: 2%;
   }
