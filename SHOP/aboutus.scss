@@ -1,0 +1,449 @@
+@import '../SASS/variables';
+:root{
+    background-color: $secondary;
+}
+
+body{
+    margin: 0px;
+}
+
+nav{
+    ul {
+        position: relative;
+        font-size: 40px; 
+        list-style: none;
+        font-family: 'alex brush';
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+        margin-top: 0%;
+        justify-content: space-around;
+        display: flex;
+        width: 100%;
+    
+        .first {
+            display: inline-block;
+            margin: 0;
+            position: relative;
+            width: 100%;
+            text-align: center;
+            margin-top: 1%;
+        }
+
+        .logo {  
+            display: flex;  
+            margin-left: 0% ; 
+            margin-right: 0px ;
+            margin-top: 1%;
+            position: absolute;
+            justify-content: center;
+            align-items: center;
+            width: 150px;
+            height: 150px;
+
+            padding: 0;
+        }  
+    }
+
+    a{
+        color: $primary;
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+
+        &:hover{
+            color: $third;
+        }
+     } 
+}
+
+main {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0;
+
+    .hero{
+        position: relative;
+        display: flex;
+        width: 100%;
+        margin: 0;
+
+        .hero-svg {
+            position: absolute;
+            background-image: url(../IMG/svghero.svg);
+            background-repeat: no-repeat;
+            margin-top: -3%;
+            background-position-y: center;
+            height: 300px;
+            width: 100%;
+            background-size: 100%;
+            z-index: -4;
+        }
+
+        .backbox{
+            align-self: center;
+            height:45%;
+            width: 80%;
+            position: absolute;
+            margin:10%;
+            background-color: $secondbg;
+            margin-top: 0%;
+            border-style: solid;
+            border-width: 1px;
+            border-color: $primary;
+            display:flex;
+            margin-bottom: 0%;
+
+            .textboxone{
+                width: 40%;
+                display: inline-block;
+                height: auto;
+                flex-grow: 1;
+
+                h1{
+                    font-family: 'Alex Brush';
+                    margin-left: -2%;
+                    margin-top: -6%;
+                    margin-bottom: 4%;
+                    font-size: 85px;
+                    letter-spacing: 2px;
+                    color: $primary;
+
+                }
+                h2{
+                    margin-top: -8%;
+                    padding-left: 10%;
+                    font-weight: 50;
+                    font-family: 'Roboto Condensed';
+                    font-size: 35px;
+                    color: $primary;
+                    margin-bottom: 0;
+                }
+        
+                p{
+                    padding-top: 5%;
+                    padding-left:10%;
+                    margin: 0%;
+                    height: auto;
+                    margin-right: 0;
+                    width: 70%;
+                    font-family: roboto condensed;
+                    line-height: 0.6cm;
+                    font-size: 19px;
+                }
+                
+            }
+            .opening{
+                width: 50%;
+                display: inline-block;
+                margin: 0;
+                position: relative;
+                justify-items: center;
+            
+                .openbox{
+                background-color: $secondary;
+                width: 70%;
+                height: 280px;
+                text-align: center;
+                padding-top: 6%;
+                margin-left: 15%;
+                margin-top:10%;
+                    h1{
+                        font-family: alex brush;
+                        font-size: 80px;
+                        color: $primary;
+                        margin-top: -13%;
+                        position: absolute;
+                        margin-left: -5%;
+                    }
+                    h3{
+                        font-family: Roboto Condensed;
+                        font-size: 25px;
+                        font-weight: 800;
+                    }
+                    p{
+                        font-family: roboto condensed;
+                        font-size: 20px;
+                    }
+            
+                }
+                
+            }
+        }      
+    }
+
+    .phone{
+        position:absolute;
+        display: flex;
+        width: 100%;
+        height: 20%;
+        bottom: 0;
+        margin-top: 0;
+        text-align: center;
+        #phone{
+            position: absolute;
+            left: 32%;
+            width: 100px;
+            height: 100px;
+            margin-top: -3%;
+            justify-content: center;
+            
+        }
+        h4{
+            font-size: 100PX;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            margin-left: 2.5%;
+            margin-top: -3%;
+            font-family: roboto condensed;
+            color: $primary;
+        }
+    }
+
+}
+
+footer{
+    margin-top: 0%;
+    background: $secondary;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+   /*  box-sizing: border-box;
+    border-top: $primary solid 1px ; */
+    width: auto;
+    font: bold 16px sans-serif;
+    text-align: left;
+    padding: 50px 60px 40px;
+    overflow: hidden;
+    
+    .footer-left {
+        float: left;
+
+        h3 {
+            color: $primary;
+            font-family: Alex brush ;
+            font-size: 60px;
+            margin-bottom: 5%;
+            margin-top: -1%;
+            font-weight: 1px;
+        }
+
+        .footer-links {
+            color: #606060;
+            margin: 0 0 10px;
+            padding: 0;
+            font-family: roboto condensed;
+           
+            a {
+                display: inline-block;
+                line-height: 1.8;
+                text-decoration: none;
+                color: inherit;
+                font-size: 20px;
+                margin-right: 10%;
+                margin-bottom: 3%;
+                &:hover{
+                    color: $hover;
+                }
+               
+              }
+            
+        }
+
+        li {
+  
+            display: inline-block;
+           /* -webkit-filter: invert(.75); 
+            filter: invert(.75);  -> Invert Social Icons in Footer*/
+            margin-top: 3%;
+
+            img{ 
+                display: inline-block;
+                margin-right:10%;
+                height: 30px;
+                width: 30px;
+                
+            }
+        }     
+    }
+
+    .footer-right {
+        float: right;
+        p {
+            display: inline-block;
+            vertical-align: top;
+            margin: -1% 42px 3px 4px;
+            color: &primary;
+            font-family: roboto condensed;
+            font-size: 25px;
+        }
+
+        form {
+            display: inline-block;
+            input, textarea {
+                display: block;
+                border-radius: 3px;
+                box-sizing: border-box;
+                background-color: $third;
+                box-shadow: 1px $primary;
+                border: none;
+                resize: none;
+                font: inherit;
+                font-size: 14px;
+                font-weight: normal;
+                color: $primary;
+                width: 400px;
+                padding: 18px;
+            }
+            ::-webkit-input-placeholder {
+                color: $primary;
+            }
+
+            ::-moz-placeholder {
+                color: $primary;
+                opacity: 1;
+            }
+
+            :-ms-input-placeholder {
+                color: $primary;
+            }
+
+            input {
+                height: 55px;
+                margin-bottom: 15px;
+                letter-spacing: 3px;
+            }
+
+            textarea {
+                height: 100px;
+                margin-bottom: 20px;
+                letter-spacing: 3px;
+            }
+
+            button {
+                border-radius: 3px;
+                background-color: $third;
+                color: $primary;
+                border: 0;
+                padding: 15px 50px;
+                font-weight: bold;
+                float: right;
+                font-family: roboto condensed;
+                letter-spacing: 3px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1360px) {
+    .footer-distributed {
+      padding: 20px;
+      
+    }
+
+    #blomadogg{
+    font-size: 60px;
+    width: 500px;
+    }
+  
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-right {
+      float: none;
+      max-width: 300px;
+      margin: 0 auto;
+      margin-left: 30%;
+    }
+  
+    .footer-distributed .footer-left {
+      margin-bottom: 40px;
+      margin-left: 30%;
+    }
+  
+    .footer-distributed form {
+      margin-top: 30px;
+    }
+  
+    .footer-distributed form {
+      display: block;
+    }
+  
+    .footer-distributed form button {
+      float: none;
+    }
+}
+ 
+ @media only screen and (max-width:1360px){
+  
+  nav {
+    height: 50px;
+    width: 100%;
+    position: relative;
+  }  
+  
+  nav ul {
+   display: flex;
+    width: 100%;
+  }
+
+
+#logo{
+    height: 90px;
+    width: 90px;
+    margin-top: 6%;
+}
+
+main .hero .backbox{
+    height: 800px;
+    margin-top: 50%;
+    display: block;
+    margin-bottom: 15%;
+        .textboxone {
+            width: 110%;
+            p{
+                padding-left: 10%;
+            }
+    
+        }
+        
+        .opening{
+           width: 100%;
+            
+        }
+    
+}
+
+#phone{ 
+    padding-top: 8%;
+    margin-left: -7%;
+}
+
+#phoneid{
+       margin-top: 7%;
+       margin-left: 11%;
+       font-size: 80px;
+       padding-left: 5%;
+       
+    }
+
+#header {
+    font-size: 50px;
+    margin-left: 5%;
+    margin-top: -5%;
+    }
+
+    #contact{
+        margin-top: 10%;
+    }
+
+
+
+
+
+
+
+
+
+} 
+  
+
+
