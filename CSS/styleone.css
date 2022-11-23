@@ -128,19 +128,20 @@ main .hero .hero-bottom-container .hero-bottom-line2 {
   justify-content: center;
   opacity: 80%;
   margin-bottom: 20%;
+  width: 100%;
 }
 .section2 .container .imgbox1 .img1 {
   display: block;
   margin-left: 0;
   margin-right: 0;
-  height: 90%;
+  height: 100%;
   width: 80%;
 }
 .section2 .container .imgbox1 .rec1 {
   position: absolute;
   margin-left: 0%;
-  margin-top: -4%;
-  height: 450px;
+  margin-top: -3%;
+  height: 60%;
   width: 30%;
 }
 .section2 .container .imgbox1 a {
@@ -160,19 +161,20 @@ main .hero .hero-bottom-container .hero-bottom-line2 {
   justify-content: center;
   opacity: 80%;
   margin-bottom: 20%;
+  width: 100%;
 }
 .section2 .container .imgbox2 .img1 {
   display: block;
   margin-left: 0;
   margin-right: 0;
-  height: 90%;
+  height: 100%;
   width: 80%;
 }
 .section2 .container .imgbox2 .rec2 {
   position: absolute;
   margin-top: -2.2%;
   margin-left: 0%;
-  height: 50%;
+  height: 55%;
   width: 20%;
 }
 .section2 .container .imgbox2 a {
@@ -191,20 +193,21 @@ main .hero .hero-bottom-container .hero-bottom-line2 {
   justify-content: center;
   opacity: 80%;
   margin-bottom: 20%;
+  width: 100%;
 }
 .section2 .container .imgbox3 .img1 {
   display: block;
   margin-left: 0;
   margin-right: 0;
-  height: 90%;
+  height: 100%;
   width: 80%;
 }
 .section2 .container .imgbox3 .rec3 {
   transform: scaleX(-1);
   position: absolute;
   margin-left: 0%;
-  margin-top: -4%;
-  height: 450px;
+  margin-top: -3%;
+  height: 60%;
   width: 30%;
 }
 .section2 .container .imgbox3 a {
