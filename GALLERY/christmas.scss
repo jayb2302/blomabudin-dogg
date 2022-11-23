@@ -43,18 +43,110 @@ p{
 }
 
 main{
-   text-align: center;
-}
-/* Style the Image Used to Trigger the Modal */
-
-#myImg {
+  text-align: center;
+  #myImg1{
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    &:hover {opacity: 0.7;}
+
   }
+  #myImg2 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {opacity: 0.7;}
+
+  }
+  #myImg3 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {opacity: 0.7;}
+  }
+  #myImg4{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {opacity: 0.7;}
+  }
+  #myImg5{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {opacity: 0.7;}
+  }
+  #myImg6{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {opacity: 0.7;}
+  }
+  #myImg7{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {opacity: 0.7;}
+  }
+  #myImg8 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {opacity: 0.7;}
+  }
+  #myImg9{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {opacity: 0.7;}
+  }
+  #myImg10 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {opacity: 0.7;}
+  }
+  #myImg11 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {opacity: 0.7;}
+  }
+  #myImg12 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {opacity: 0.7;}
+  }
+  #myImg13 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {opacity: 0.7;}
+  }
+  #myImg14 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {opacity: 0.7;}
+  }
+  #myImg15 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {opacity: 0.7;}
+  }
+  
+}
+/* Style the Image Used to Trigger the Modal */
+
+
 
   
-  #myImg:hover {opacity: 0.7;}
+
+  
+
+  
 
   .container{
     display: inline;

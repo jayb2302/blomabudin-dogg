@@ -39,18 +39,168 @@ p {
 main {
   text-align: center;
 }
-
-/* Style the Image Used to Trigger the Modal */
-#myImg {
+main #myImg1 {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
 }
-
-#myImg:hover {
+main #myImg1:hover {
+  opacity: 0.7;
+}
+main #myImg2 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+main #myImg2:hover {
+  opacity: 0.7;
+}
+main #myImg3 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+main #myImg3:hover {
+  opacity: 0.7;
+}
+main #myImg4 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+main #myImg4:hover {
+  opacity: 0.7;
+}
+main #myImg5 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+main #myImg5:hover {
+  opacity: 0.7;
+}
+main #myImg6 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+main #myImg6:hover {
+  opacity: 0.7;
+}
+main #myImg7 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+main #myImg7:hover {
+  opacity: 0.7;
+}
+main #myImg8 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+main #myImg8:hover {
+  opacity: 0.7;
+}
+main #myImg9 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+main #myImg9:hover {
+  opacity: 0.7;
+}
+main #myImg10 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+main #myImg10:hover {
+  opacity: 0.7;
+}
+main #myImg11 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+main #myImg11:hover {
+  opacity: 0.7;
+}
+main #myImg12 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+main #myImg12:hover {
+  opacity: 0.7;
+}
+main #myImg13 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+main #myImg13:hover {
+  opacity: 0.7;
+}
+main #myImg14 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+main #myImg14:hover {
+  opacity: 0.7;
+}
+main #myImg15 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+main #myImg15:hover {
+  opacity: 0.7;
+}
+main #myImg16 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+main #myImg16:hover {
+  opacity: 0.7;
+}
+main #myImg17 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+main #myImg17:hover {
+  opacity: 0.7;
+}
+main #myImg18 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+main #myImg18:hover {
+  opacity: 0.7;
+}
+main #myImg19 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+main #myImg19:hover {
+  opacity: 0.7;
+}
+main #myImg20 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+main #myImg20:hover {
   opacity: 0.7;
 }
 
+/* Style the Image Used to Trigger the Modal */
 .container {
   display: inline;
   position: relative;
