@@ -141,7 +141,7 @@ main .hero .hero-bottom-container .hero-bottom-line2 {
   position: absolute;
   margin-left: 0%;
   margin-top: -3%;
-  height: 60%;
+  height: 70%;
   width: 30%;
 }
 .section2 .container .imgbox1 a {
@@ -174,7 +174,7 @@ main .hero .hero-bottom-container .hero-bottom-line2 {
   position: absolute;
   margin-top: -2.2%;
   margin-left: 0%;
-  height: 55%;
+  height: 65%;
   width: 20%;
 }
 .section2 .container .imgbox2 a {
@@ -207,7 +207,7 @@ main .hero .hero-bottom-container .hero-bottom-line2 {
   position: absolute;
   margin-left: 0%;
   margin-top: -3%;
-  height: 60%;
+  height: 70%;
   width: 30%;
 }
 .section2 .container .imgbox3 a {
@@ -239,8 +239,9 @@ main .hero .hero-bottom-container .hero-bottom-line2 {
   display: grid;
   grid-template: 1fr/1fr;
   place-items: center;
-  -webkit-clip-path: polygon(100% 88%, 50% 100%, 0 88%, 0 0, 50% 11%, 100% 0);
-          clip-path: polygon(100% 88%, 50% 100%, 0 88%, 0 0, 50% 11%, 100% 0);
+  -webkit-clip-path: polygon(100% 100%, 50% 100%, 0% 100%, 0 0, 50% 11%, 100% 0);
+          clip-path: polygon(100% 100%, 50% 100%, 0% 100%, 0 0, 50% 11%, 100% 0);
+  margin-top: 10%;
 }
 .section3 .hero2 .heroimg2 > * {
   grid-column: 1/1;
@@ -262,46 +263,42 @@ main .hero .hero-bottom-container .hero-bottom-line2 {
 }
 .section3 .hero-wrap .herobackground {
   width: 100%;
-  height: 300px;
+  height: 350px;
   background-color: #CDBDB2;
-  -webkit-clip-path: polygon(100% 100%, 50% 100%, 0 100%, 0 0, 50% 35%, 100% 0);
-          clip-path: polygon(100% 100%, 50% 100%, 0 100%, 0 0, 50% 35%, 100% 0);
+  -webkit-clip-path: polygon(100% 100%, 50% 100%, 0 100%, 0 0, 50% 21%, 100% 0);
+          clip-path: polygon(100% 100%, 50% 100%, 0 100%, 0 0, 50% 21%, 100% 0);
   position: absolute;
   margin-right: 0;
-  margin-top: -9.5%;
+  margin-top: -4%;
+  z-index: -2;
   display: flex;
 }
-.section3 .hero-wrap .herotext {
-  display: flex;
-  position: relative;
-  width: 100%;
-  height: 400px;
-}
-.section3 .hero-wrap .herotext h1 {
+.section3 .hero-wrap h1 {
   font-family: roboto Condensed;
   color: #F2F2F2;
   font-size: 90px;
-  margin-left: 20%;
+  margin-left: 25%;
   width: 33%;
   filter: drop-shadow(4px 4px 2.5px rgba(0, 0, 0, 0.5));
   letter-spacing: 4px;
-  margin-top: -5%;
+  margin-top: -2%;
+  height: 3%;
 }
-.section3 .hero-wrap .herotext p {
+.section3 .hero-wrap p {
   font-family: roboto Condensed;
   color: #707070;
-  font-size: 90px;
+  font-size: 100px;
   font-size: 190px;
   font-family: "Alex Brush";
   margin: 0;
-  margin-left: -20%;
-  margin-top: -5%;
+  margin-left: 32%;
+  margin-top: -10%;
   filter: drop-shadow(-8px 5px 2px rgba(122, 122, 122, 0.5));
   transform: rotate(-25deg);
   width: 33%;
   letter-spacing: 4px;
 }
-.section3 .hero-wrap .herotext p a {
+.section3 .hero-wrap p a {
   text-decoration: none;
   color: none;
   list-style-type: none;
@@ -312,24 +309,24 @@ main .hero .hero-bottom-container .hero-bottom-line2 {
   -webkit-background-clip: text;
   transition: 0.4s;
 }
-.section3 .hero-wrap .herotext p a:hover {
+.section3 .hero-wrap p a:hover {
   --_p:0% ;
 }
-.section3 .hero-wrap .herotext h6 {
+.section3 .hero-wrap h6 {
   font-family: roboto Condensed;
   color: #F2F2F2;
   width: 33%;
   font-size: 60px;
   font-family: "Roboto Condensed";
-  margin-top: 3%;
-  margin-left: -12%;
+  margin-top: -3%;
+  margin-left: 55%;
   color: #F2F2F2;
   letter-spacing: 4px;
   filter: drop-shadow(4px 4px 1.5px rgba(0, 0, 0, 0.5));
 }
 
 footer {
-  margin-top: -15.5%;
+  margin-top: -2.5%;
   background: #F2F2F2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   /*  box-sizing: border-box;
@@ -347,7 +344,8 @@ footer .footer-left h3 {
   color: #707070;
   font-family: Alex brush;
   font-size: 60px;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
+  margin-top: -1%;
   font-weight: 1px;
 }
 footer .footer-left .footer-links {
@@ -365,10 +363,14 @@ footer .footer-left .footer-links a {
   margin-right: 10%;
   margin-bottom: 3%;
 }
+footer .footer-left .footer-links a:hover {
+  color: #9E9F8C;
+}
 footer .footer-left li {
   display: inline-block;
   /* -webkit-filter: invert(.75); 
    filter: invert(.75);  -> Invert Social Icons in Footer*/
+  margin-top: 3%;
 }
 footer .footer-left li img {
   display: inline-block;
@@ -437,18 +439,24 @@ footer .footer-right form button {
   letter-spacing: 3px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 950px) {
   .footer-distributed {
-    padding: 30px;
+    padding: 20px;
+  }
+  #blomadogg {
+    font-size: 60px;
+    width: 500px;
   }
   .footer-distributed .footer-left,
 .footer-distributed .footer-right {
     float: none;
     max-width: 300px;
     margin: 0 auto;
+    margin-left: 30%;
   }
   .footer-distributed .footer-left {
     margin-bottom: 40px;
+    margin-left: 30%;
   }
   .footer-distributed form {
     margin-top: 30px;
@@ -512,6 +520,9 @@ footer .footer-right form button {
     height: 450px;
     width: 370px;
   }
+  .herotext {
+    height: 10%;
+  }
   #container {
     display: block;
   }
@@ -520,8 +531,8 @@ footer .footer-right form button {
     width: 400px;
   }
   #imgboxone, #imgboxtwo, #imgboxthree {
-    font-size: 90px;
-    margin-top: 17%;
+    font-size: 80px;
+    margin-top: 15%;
     border: #CDBDB2 2px dashed;
     padding-top: 1.5%;
     padding-left: 2%;
@@ -533,9 +544,9 @@ footer .footer-right form button {
     height: 700px;
   }
   #heroback {
-    -webkit-clip-path: polygon(100% 100%, 50% 100%, 0 100%, 0 0, 50% 35%, 100% 0);
-            clip-path: polygon(100% 100%, 50% 100%, 0 100%, 0 0, 50% 35%, 100% 0);
-    margin-top: -13%;
+    -webkit-clip-path: polygon(100% 100%, 50% 100%, 0 100%, 0 0, 50% 25%, 100% 0);
+            clip-path: polygon(100% 100%, 50% 100%, 0 100%, 0 0, 50% 25%, 100% 0);
+    margin-top: -10%;
   }
   #let {
     margin-top: -5%;
@@ -544,8 +555,9 @@ footer .footer-right form button {
   #you {
     font-size: 50px;
     width: auto;
-    margin-top: 11.5%;
-    margin-left: -30%;
+    margin-top: 0%;
+    margin-left: 40%;
+    margin-bottom: -5;
   }
   #dec {
     transform: rotate(0);
@@ -555,12 +567,12 @@ footer .footer-right form button {
     border-radius: 40px;
     height: 50px;
     min-width: 330px;
-    margin-left: -30%;
-    margin-top: 1.5%;
+    margin-left: 30%;
+    margin-top: -3%;
     padding-bottom: 5%;
     padding-left: 2%;
   }
   #contact {
-    margin-top: -25%;
+    margin-top: 0%;
   }
 }/*# sourceMappingURL=styleone.css.map */
